@@ -1,0 +1,43 @@
+.topbar{
+    width: 100%;
+    height: 60px;
+}
+.topbar .topbarWrapper {
+   
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 0 15px;
+
+}
+.iconBadge {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 9px;
+    right: 16px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    justify-content: center;
+    text-align: center;
+    font-size: 9px;
+    align-items: center;
+
+
+}
+.topbar .rightbar {
+    display: flex;
+    justify-content: space-around;
+}
+.leftbar {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255,165,0);
+ 
+}
+.topbarWrapper a {
+    text-decoration: none;
+}

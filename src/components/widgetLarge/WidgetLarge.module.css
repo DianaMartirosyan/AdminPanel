@@ -1,0 +1,59 @@
+.widgetLarge {
+    flex: 2;
+    box-shadow: 2px 4px 4px 2px;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+    padding: 25px;
+    /* background: rgb(245,255,250) ; */
+}
+.widgetLargeUserImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+.widgetLargeTable {
+    width: 100%;
+    border-spacing: 20px;
+}
+.widgetLargeTable td {
+    width: 25%;
+    text-align: center;
+    align-items: center;
+}
+
+
+.widgetLargeTable tr:nth-of-type(2) td:nth-of-type(4) button {
+    background-color:rgb(39, 174, 96 );
+    border: none;
+    border-radius: 30px;
+    padding: 5px 10px;
+    color: white;
+    font-size: 14px;
+}
+.widgetLargeTable tr:nth-of-type(3) td:nth-of-type(4) button {
+    background-color:rgb(192, 57, 43);
+    border: none;
+    border-radius: 30px;
+    padding: 5px 10px;
+    color: white;
+    font-size: 14px;
+}
+.widgetLargeTable tr:nth-of-type(4) td:nth-of-type(4) button {
+    background-color:rgb(93, 173, 226 );
+    border: none;
+    border-radius: 30px;
+    padding: 5px 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.widgetLargeUser {
+    display: flex;
+    margin-left: 15px;
+}
+.widgetLargeName {
+    padding-left: 10px;
+
+  
+}

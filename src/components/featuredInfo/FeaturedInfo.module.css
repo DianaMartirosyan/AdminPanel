@@ -1,0 +1,37 @@
+.feauturedInfo {
+   /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+}
+.feauturedInfo .feauturedItem:nth-of-type(1) {
+    background-color:#9FE2BF;
+}
+.feauturedInfo .feauturedItem:nth-of-type(2) {
+    background-color:#F8C471 ;
+}
+
+.feauturedInfo .feauturedItem:nth-of-type(3) {
+    background-color:lightpink ;
+}
+.feauturedItem {
+    width: 15%;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px;
+
+}
+.featuredMoneyRate {
+    padding-left: 10px;
+    font-size: 14px;
+}
+.featuredMoney {
+    font-weight: 600;
+    font-size: 24px;
+    color:  #154360 ;
+}
+.featuredSub {
+    color: gray;
+}
+

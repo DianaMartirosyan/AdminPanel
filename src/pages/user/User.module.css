@@ -1,0 +1,98 @@
+.user {
+    flex: 4;
+}
+.titleContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.titleContainer .editTitle {
+    padding-left: 20px;
+}
+.userCreate {
+    margin-right: 20px;
+    background-color: #90EE90;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.userContainer {
+    display: flex;
+}
+.showUser {
+    flex: 1;
+    box-shadow: 1px 1px 1px 1px;
+    margin-right: 5px;
+    padding: 10px 10px 5px 10px;
+    background-color: white;
+}
+.showUserUpdate {
+    flex: 2;
+    box-shadow: 1px 2px 2px 2px;
+    margin-left: 5px;
+    padding: 10px 10px 5px 10px;
+    background-color: white;
+}
+.showUser img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.showUserTop {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+.showUserTopTitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.showUserInfo span {
+    align-items: center;
+}
+.showUpdateUploadFile {
+    display: flex;
+    justify-content: space-between;
+}
+.showUSerUpdateImg {
+    width: 100px;
+    height: 100px;
+}
+.showUserUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.showUserUpdateItem {
+    display: flex;
+    flex-direction: column;
+}
+.showUserInfo, .showUserDetail  {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  
+}
+.showUserTopTitle {
+   
+    align-items: center;
+    
+    font-weight: bold;
+}
+.userName {
+    color: black;
+    font-weight: bold;
+}
+.userTitle {
+    color: gray;
+}
+.showUserDetail {
+    font-size: 14px;
+    color: gray;
+}
+.userAccount {
+    margin-bottom: 25px;
+}
+.showUserUpdateItem{
+    margin-top: 15px;
+}
